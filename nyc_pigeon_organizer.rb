@@ -1,6 +1,9 @@
 def nyc_pigeon_organizer(data)
-  p_by_n = {}
+  first_hash = {}
+  second_hash = {}
   data.map do |key, value|
-      p_by_n = value
+      first_hash = value
     end
+  first_has.map do |key, value|
+    second_hash = value
 end
