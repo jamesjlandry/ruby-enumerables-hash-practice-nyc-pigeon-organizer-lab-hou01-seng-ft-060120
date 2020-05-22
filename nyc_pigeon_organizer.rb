@@ -3,5 +3,4 @@ def nyc_pigeon_organizer(data)
   data.map do |key, value|
       p_by_n = key
     end
-  end
 end
