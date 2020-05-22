@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
   first_hash.map do |key, value|
     second_hash = value
     end
-    second_hash.map do |key|
+    second_hash.each_with_object do |key, hash|
+      
    end
 end
