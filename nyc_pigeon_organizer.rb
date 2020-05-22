@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), array|
@@ -13,6 +13,5 @@ def nyc_pigeon_organizer(data)
         array[name][key].push(inside_key.to_s)
     end
   end
-    binding.pry
    end
 end
