@@ -6,4 +6,5 @@ def nyc_pigeon_organizer(data)
     end
   first_hash.map do |key, value|
     second_hash = value
+    end
 end
